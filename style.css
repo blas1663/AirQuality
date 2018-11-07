@@ -101,3 +101,9 @@ button {
 	clear: left;
 }
 
+/* demonstration video */
+iframe {
+	margin: 25px;
+	margin-left: 33%;
+	align: center;
+}
