@@ -1,0 +1,104 @@
+/* Multiple Pages */
+
+html {
+	font-size: 100%;
+}
+
+/* navigation panel */
+#navigation {
+	width: 100%;
+	margin: 0 auto;
+	position: fixed;
+}
+
+/* navigation components */
+.navigation {
+	background-color: #197519;
+	display: inline;
+	text-align: center;
+	color: white;
+	margin: 0 auto;
+	padding: 12px;
+    text-decoration: none;
+}
+
+/* page header */
+#header {
+	font-size: 3rem;
+	color: white;
+	background-color: #197519;
+	text-align: center;
+	padding: 30px;
+	margin: 0px;
+}
+
+.link {
+	color: white;
+    text-decoration: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+/* Air Quality Map Page */
+
+/* right side of the page */
+#rightside {
+	width: 39.4%;
+	float: right;
+	display: inline;
+	text-align: center;
+}
+
+/* table header */
+#tableheader {
+	font-size: 3rem;
+	color: white;
+	background-color: #197519;
+	text-align: center;
+	padding-top: 5px;
+	margin: 0px;
+}
+
+/* table */
+#table {
+	text-align: center;
+	margin: auto;
+}
+
+/* input box */
+#inputbox {
+	text-align: center;
+	background-color: white;
+}
+
+/* map */
+#map {
+	margin-top: 10px;
+	width: 60%;
+	height: 540px;
+}
+
+/* legend */
+#under{
+	text-align: center;
+}
+
+/* About the Project Page */
+
+/* photos */
+.photos {
+	width: 250px;
+	float: left;
+	color: #197519;
+	padding: 2px;
+	border: 2px solid #197519;
+	margin: 25px;
+}
+
+/* tools header */
+#tools {
+	clear: left;
+}
+
