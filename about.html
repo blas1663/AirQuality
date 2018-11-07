@@ -1,0 +1,49 @@
+<!doctype html>
+<html>
+
+	<head>
+		<title> About the Project </title>
+		<meta charset="utf-8"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1"/>
+		<!-- our stylesheet -->
+		<link rel="stylesheet" href="style.css"/>
+	</head>
+	
+	<body>
+		<div id="navigation">
+			<ul class="navigation">
+				<li class="navigation"> <a class="navigation" href="map.html" target="_self"> Air Quality Map </a> </li>
+				<li class="navigation"> <a class="navigation" href="about.html" target="_self"> About the Project </a> </li>
+			</ul>
+		</div>
+		<h1 id="header"> About the Project </h1>
+		
+		<div>
+			<img class="photos" src="aboutme.JPG" alt="me" style="float:left;"/>
+			<div style="float: left; margin: 25px; width: 20%;">
+				</br> </br> </br>
+				<p> My name is Megan Blaschko.  I am a senior at the University of St. Thomas.  I am majoring in Actuarial Science and minoring in Computer Science, Statistics and Mathematics.  I am from Shakopee, MN.  I love listening to music, playing volleyball with my sisters, walking my dog and baking. </p>
+			</div>
+			<img class="photos" src="huntercliff.jpg" alt="me" style="float:right;"/>
+			<div style="float: right; margin: 25px; width: 20%;">
+				</br> </br> </br>
+				<p> My name is Hunter Posten. I'm  a senior at the University of St. Thomas. I'm majoring in Computer Science. I'm originally from Andover, Minnesota. Besides making web apps I really enjoy hiking, camping, and traveling. </p>
+			</div>
+		</div>
+
+		<div id="tools">
+			<h1 id="header"> Tools </h1>
+			<p> Leaflet is an open-source JavaScript library.  This is what we used to create the map.  We used Leaflet to change the location with the input boxes or with the moveend feature.  We also used Leaflet to get the distance between the center of the map and the edge which we used as a radius. </p>
+			<p> Open AQ Platform is a collection of millions of air quality measurements from 9,973 locations.  We used Open AQ to find the different locations of the measurements to put the marker.  We also found the different measurements to put in the table. </p>
+			<p> Vue.js is an open-source JavaScript framework.  We used Vue.js to create a Vue element and used databinding to update the coordinates and location as the map is moved.  Vue.js was used throughout the entire website because it was a little easier and more condensed than using just regular JavaScript. </p>
+			<p> Location IQ is a collection of coordinates and their location names.  The first part of the display name is the location of the coordinates.  We can use Location IQ to find the location name from the coordinates or find the coordinates from the location name. </p>
+		</div>
+		
+		<div id="video">
+			<h1 id="header"> Demonstration </h1>
+			<iframe width="560" height="315" src="{{youtube video}}" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+		</div>
+
+	</body>
+
+</html>
